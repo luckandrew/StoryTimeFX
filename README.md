@@ -41,7 +41,8 @@ flowchart TB
     G --> H
 ```
 ## Proposed Architecture for Context Understanding
-```flowchart TB
+```mermaid
+flowchart TB
     subgraph Input
     A[Speech/Text Input] --> B[Stream Chunker]
     B --> C[Text Buffer]
