@@ -41,7 +41,7 @@ flowchart TB
     G --> H
 ```
 ## Proposed Architecture for Context Understanding
-flowchart TB
+```flowchart TB
     subgraph Input
     A[Speech/Text Input] --> B[Stream Chunker]
     B --> C[Text Buffer]
@@ -77,6 +77,7 @@ flowchart TB
     J --> N
     M --> F
     N --> K
+```
 ## Component Overview
 
 ### Text Parser
