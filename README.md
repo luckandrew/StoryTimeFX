@@ -1,5 +1,7 @@
 # StoryFX: Interactive Story Sound Effects
 
+Currently deployed to: [https://emoji-sound-app.replit.app/](URL https://emoji-sound-app.replit.app/)
+
 StoryFX is an innovative application that enhances storytelling by automatically triggering sound effects, ambient sounds, and music based on the story content. The system uses natural language processing to understand context and deliver immersive audio experiences.
 
 ## Features
