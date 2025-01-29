@@ -40,7 +40,43 @@ flowchart TB
     F --> H
     G --> H
 ```
+## Proposed Architecture for Context Understanding
+flowchart TB
+    subgraph Input
+    A[Speech/Text Input] --> B[Stream Chunker]
+    B --> C[Text Buffer]
+    end
+    
+    subgraph Analysis
+    C --> D[Claude API]
+    D --> E[Scene Context Analyzer]
+    E --> F[Asset Mapper]
+    end
+    
+    subgraph Asset Management
+    G[(Sound Library)]
+    H[(Music Library)]
+    I[(Ambient Library)]
+    end
+    
+    subgraph Sound Engine
+    F --> J[Trigger Manager]
+    J --> K[Sound Mixer]
+    G --> K
+    H --> K
+    I --> K
+    K --> L[Audio Output]
+    end
 
+    subgraph State Management
+    M[Scene State]
+    N[Active Sounds]
+    end
+    
+    E --> M
+    J --> N
+    M --> F
+    N --> K
 ## Component Overview
 
 ### Text Parser
