@@ -1,4 +1,4 @@
-# StoryFX: Interactive Story Sound Effects
+# TaleTones: Interactive Story Sound FX and Music
 
 Currently deployed to: [https://emoji-sound-app.replit.app/](URL https://emoji-sound-app.replit.app/)
 
