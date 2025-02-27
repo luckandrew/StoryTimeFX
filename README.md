@@ -1,8 +1,8 @@
-# TaleTones: Interactive Story Sound FX and Music
+# StoryTimeFX: Automatic Sound FX and Music
 
 Currently deployed to: [https://emoji-sound-app.replit.app/](URL https://emoji-sound-app.replit.app/)
 
-StoryFX enhances storytelling by automatically triggering sound effects, ambient sounds, and music based on the story content. The system uses natural language processing to understand context and deliver immersive audio experiences.
+StoryTimeFX enhances storytelling by automatically triggering sound effects, ambient sounds, and music based on the story content. The system uses natural language processing to understand context and deliver immersive audio experiences.
 
 ## Features
 
